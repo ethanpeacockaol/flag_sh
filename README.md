@@ -26,3 +26,10 @@ brew install figlet lolcat tmux cmatrix
 
 # Run US Flag:  
 ./flag_tmux.sh
+
+# How to Exit:  
+ctrl-b + :
+type kill-session in the bottom text entry box and hit Enter
+
+### session us already running?  
+tmux attach -t us
